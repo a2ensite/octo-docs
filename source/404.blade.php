@@ -1,15 +1,13 @@
 @extends('_layouts.master')
 
 @section('body')
-<div class="flex flex-col items-center mt-32 text-gray-700">
+<div class="flex flex-col items-center text-gray-700">
     <h1 class="text-6xl font-light leading-none mb-2">404</h1>
 
-    <h2 class="text-3xl">Page not found</h2>
-
-    <hr class="block w-full max-w-lg mx-auto my-8 border">
+    <h2 class="text-3xl">Página não encontrada</h2>
 
     <p class="text-xl">
-        Need to update this page? See the <a title="404 Page Documentation" href="https://jigsaw.tighten.co/docs/custom-404-page/"> Jigsaw documentation</a>.
+        Está perdido ? Volte pro começo <a title="Volte pro começo" href="/">página inicial</a>.
     </p>
 </div>
 @endsection

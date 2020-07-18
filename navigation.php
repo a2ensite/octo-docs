@@ -1,14 +1,11 @@
 <?php
 
 return [
-    'Getting Started' => [
-        'url' => 'docs/getting-started',
+    'Iniciando' => [
+        'url' => 'docs/core/iniciando',
         'children' => [
-            'Customizing Your Site' => 'docs/customizing-your-site',
-            'Navigation' => 'docs/navigation',
-            'Algolia DocSearch' => 'docs/algolia-docsearch',
-            'Custom 404 Page' => 'docs/custom-404-page',
+            'Instalação' => 'docs/core/iniciando/#instalacao',
+            'Configuração' => 'docs/core/iniciando/#configuracao',
         ],
     ],
-    'Jigsaw Docs' => 'https://jigsaw.tighten.co/docs/installation',
 ];

@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'baseUrl' => 'http://jigsaw-docs-staging.tighten.co',
+    'baseUrl' => env('APP_URL'),
     'production' => false,
 
     // DocSearch credentials

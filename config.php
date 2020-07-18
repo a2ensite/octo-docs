@@ -3,14 +3,14 @@
 use Illuminate\Support\Str;
 
 return [
-    'baseUrl' => '',
+    'baseUrl' => 'http://localhost:3000/',
     'production' => false,
-    'siteName' => 'Docs Starter Template',
-    'siteDescription' => 'Beautiful docs powered by Jigsaw',
+    'siteName' => 'Octo Docs',
+    'siteDescription' => 'Use o poder do Laravel framework para construir suas aplicações web',
 
     // Algolia DocSearch credentials
-    'docsearchApiKey' => '',
-    'docsearchIndexName' => '',
+    'docsearchApiKey' => '4b06adfa27bf30162ef0475642fe638e',
+    'docsearchIndexName' => 'docs',
 
     // navigation menu
     'navigation' => require_once('navigation.php'),
