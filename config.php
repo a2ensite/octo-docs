@@ -6,7 +6,8 @@ return [
     'baseUrl' => 'http://localhost:3000/',
     'production' => false,
     'siteName' => 'Octo Docs',
-    'siteDescription' => 'Use o poder do Laravel framework para construir suas aplicações web',
+    'siteDescription' => 'Start a web!',
+    'githubUrl' => 'https://github.com/a2insights/octo-core',
 
     // Algolia DocSearch credentials
     'docsearchApiKey' => '4b06adfa27bf30162ef0475642fe638e',

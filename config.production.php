@@ -3,8 +3,9 @@
 return [
     'baseUrl'    => env('APP_URL', '#'),
     'production' => true,
+    'githubUrl' => 'https://github.com/a2insights/octo-core',
 
     // DocSearch credentials
-    'docsearchApiKey' => '4b06adfa27bf30162ef0475642fe638e',
+    'docsearchApiKey' => '',
     'docsearchIndexName' => 'docs',
 ];
